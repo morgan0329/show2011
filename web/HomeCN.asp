@@ -302,14 +302,14 @@ next
 response.write("<li>")
 
 
-for index3=0 to 19
+for index3=0 to 25
  if finalArray(index3,0)="" then 
   exit for
  end if
 
  nameList=""
  maxNum=0
- for index4=0 to 5
+ for index4=0 to 8
   if finalArray(index3, index4)="" then 
    maxNum=index4
    exit for
