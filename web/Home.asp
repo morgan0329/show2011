@@ -256,7 +256,7 @@ dim index1,index2
 dim tempArray()
 dim tempKeyNameArray()
 
-dim finalArray(20,6)
+dim finalArray(25,8)
 dim index3, index4
 dim nameList
 
@@ -265,8 +265,8 @@ for m=0 to 4
 Set group1Folder = fso.GetFolder(Server.MapPath(group1Arr(m,1)))
 set group1Files = group1Folder.Files
 
-redim tempArray(80)
-redim tempKeyNameArray(30)
+redim tempArray(200)
+redim tempKeyNameArray(25)
 index1=0
 index2=0
 for each fileItem in group1Files
